@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TEQv2</string>
+    <string name="action_settings">Settings</string>
+    <string name="activation_instruction">Please enter appropriate activation code in the field below:</string>
+    
+
+</resources>

@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainTeq"
+    tools:ignore="HardcodedText" >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/title_background"
+        android:gravity="center"
+        android:paddingBottom="28dp"
+        android:paddingTop="28dp"
+        android:text="TEQ\nMaking Learning Easier"
+        android:textColor="#fff"
+        android:textSize="21sp" />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/title" 
+        android:padding="6dp"
+        android:background="#0c0011ff"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="9.86sp"
+        />
+
+</RelativeLayout>
